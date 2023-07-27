@@ -51,3 +51,8 @@ select = ["B","C","E","F","W","B9", "I", "N", "Q"]
 
 [tool.ruff.mccabe]
 max-complexity = 10
+
+[tool.interrogate]
+ignore-init-methods = true
+ignore-init-module = true
+ignore-module = true

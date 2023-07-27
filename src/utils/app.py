@@ -1,4 +1,3 @@
-
 def sum_function(a: float, b: float) -> float:
     """
     Sum two numbers
