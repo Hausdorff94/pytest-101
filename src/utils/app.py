@@ -1,5 +1,6 @@
+
 def sum_function(a: float, b: float) -> float:
-    '''
+    """
     Sum two numbers
 
     Parameters
@@ -14,5 +15,5 @@ def sum_function(a: float, b: float) -> float:
     float
         Sum of a and b
 
-    '''
+    """
     return a+b
