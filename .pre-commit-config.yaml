@@ -10,5 +10,4 @@ repos:
     hooks:
       - id: interrogate
         args: [src, -v, -i, --fail-under=80]
-        exclude: ^tests/
         pass_filenames: false
