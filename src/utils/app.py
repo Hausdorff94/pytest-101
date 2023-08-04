@@ -1,4 +1,7 @@
-def sum_function(a: float, b: float) -> float:
+"""Module providingFunction printing python version."""
+
+
+def sum_function(a_num: float, b_num: float) -> float:
     """
     Sum two numbers
 
@@ -15,4 +18,26 @@ def sum_function(a: float, b: float) -> float:
         Sum of a and b
 
     """
-    return a+b
+
+    return a_num + b_num
+
+
+def sub_function(a_num: float, b_num: float) -> float:
+    """
+    Sub two numbers
+
+    Parameters
+    ----------
+    a : float
+        First number
+    b : float
+        Second number
+
+    Returns
+    -------
+    float
+        Sum of a and b
+
+    """
+
+    return a_num - b_num
